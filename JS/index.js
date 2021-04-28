@@ -11,6 +11,7 @@ window.onload = () => {
   const fecha = document.getElementById("fecha");
   const bandera = document.getElementById("bandera");
   const comprar = document.getElementById("comprar");
+  const portada = document.getElementById("portada");
   console.log(bandera.children);
 
   const isbnEsIngles = (isbn) => {
@@ -62,7 +63,8 @@ window.onload = () => {
         contenido.innerText = libros[index].children[6].innerHTML;
         isbn.innerText = "ISBN: " + libros[index].children[2].innerHTML;
         fecha.innerText = "Fecha de lanzamiento: " + libros[index].children[4].innerHTML;
-        comprar.attributes[0].nodeValue = libros[index].children[5].innerHTML;
+        comprar.attributes[2].nodeValue = libros[index].children[5].innerHTML;
+        portada.attributes[0].nodeValue = "Portadas/" + libros[index].children[2].innerHTML + ".jpg";
         const esingles = isbnEsIngles(libros[index].children[2].innerHTML);
         if (esingles==true)
           bandera.attributes[0].nodeValue = "Paises/Reino_Unido.png";
