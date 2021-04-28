@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exposicion>
+    <libro>
+        <titulo>Eragon</titulo>
+        <autor>Christopher Paolini</autor>
+        <ISBN>9788416859306</ISBN>
+        <editorial>Roca Editorial</editorial>
+        <fecha>26 de agosto de 2003</fecha>
+        <sinopsis>
+            En un mítico bosque de la región de Alagaësia, el joven granjero Eragon (Edward Speleers) 
+            descubre una preciosa y rara piedra azul. Para que su familia pueda pasar el duro invierno, el 
+            muchacho decide cambiarla por alimentos, pero descubre asombrado cómo un dragón sale de lo que 
+            parecía una piedra pero, en realidad, era un huevo.
+        </sinopsis>
+    </libro>
+    <libro>
+        <titulo>Eldest</titulo>
+        <autor>Christopher Paolini</autor>
+        <ISBN>9788415729013</ISBN>
+        <editorial>Roca Editorial</editorial>
+        <fecha>23 de agosto de 2005</fecha>
+        <sinopsis>
+            Eldest es la secuela de Eragon. Eragon y su dragona, Saphira, acaban de impedir que las poderosas 
+            fuerzas del rey Galbatorix, cruel regente del Imperio, destruyan para siempre al ejército rebelde 
+            de los vardenos en Farthen Dûr, la ciudad montaña de los enanos. Pocos días despueés de la 
+            sangrienta batalla contra los urgalos, Eragon y Saphira tienen que viajar a Ellesméra, el país de 
+            los elfos, para continuar con su formación en la magia y en la lucha con la espada, las dos 
+            habilidades especiales de los Jinetes del Dragón, para poder enfrentarse al malvado rey. Los 
+            acompañarán Arya, la elfa, y Orik, el enano, en un viaje plagado de descubrimientos y aventuras, 
+            con parajes fabulosos y nuevas amistades. Pero el caos y la traición los acechará sin descanso, 
+            y Eragon no sabrá en quién confiar.
+        </sinopsis>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J. K. Rowling</autor>
+        <ISBN>9781408883808</ISBN>
+        <editorial>	Bloomsbury Publishing</editorial>
+        <fecha>30 de junio de 1997</fecha>
+        <sinopsis>
+            Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del 
+            número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino 
+            amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. 
+            Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan 
+            como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han 
+            concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una 
+            aventura increíble!
+        </sinopsis>
+    </libro>
+</exposicion>
