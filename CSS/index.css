@@ -1,0 +1,19 @@
+.oculto {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.card {
+    border: 2px black;
+}
+
+.bandera {
+    width: 20%;
+}
+
+.titulo {
+    font-size: 20px;
+}
