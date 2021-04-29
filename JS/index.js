@@ -19,13 +19,17 @@ window.onload = () => {
 
     switch (isbn[3]) {
       case '1':
+        //ingles
         return 1;
       case '8':
         if (isbn[4]==='4')
+          //español
           return 2;
         else
+          //desconocido
           return 3;
       default:
+        //desconocido
         return 3;
       }
   }
