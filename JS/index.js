@@ -15,11 +15,19 @@ window.onload = () => {
   const editorial = document.getElementById("editorial");
   console.log(bandera.children);
 
-  const isbnEsIngles = (isbn) => {
-    if (isbn[3] === '1')
-      return true;
-    else
-      return false;
+  const isbnIdioma = (isbn) => {
+
+    switch (isbn[3]) {
+      case '1':
+        return 1;
+      case '8':
+        if (isbn[4]==='4')
+          return 2;
+        else
+          return 3;
+      default:
+        return 3;
+      }
   }
 
   const loadXMLDoc = () => {
@@ -67,11 +75,13 @@ window.onload = () => {
         comprar.attributes[2].nodeValue = libros[index].children[5].innerHTML;
         portada.attributes[0].nodeValue = "Portadas/" + libros[index].children[2].innerHTML + ".jpg";
         editorial.innerText = libros[index].children[3].innerHTML;
-        const esingles = isbnEsIngles(libros[index].children[2].innerHTML);
-        if (esingles==true)
+        const idioma = isbnIdioma(libros[index].children[2].innerHTML);
+        if (idioma==1)
           bandera.attributes[0].nodeValue = "Paises/Reino_Unido.png";
-        else
+        else if (idioma==2)
           bandera.attributes[0].nodeValue = "Paises/Espana.png";
+        else
+          "Idioma desconocido";
         cardHTML.className = "mostrar";
       });
     }
