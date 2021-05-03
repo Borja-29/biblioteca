@@ -13,7 +13,6 @@ window.onload = () => {
   const comprar = document.getElementById("comprar");
   const portada = document.getElementById("portada");
   const editorial = document.getElementById("editorial");
-  console.log(bandera.children);
 
   const isbnIdioma = (isbn) => {
 
@@ -86,7 +85,7 @@ window.onload = () => {
           bandera.attributes[0].nodeValue = "Paises/Espana.png";
         else
           "Idioma desconocido";
-        cardHTML.className = "mostrar";
+        cardHTML.classList.replace("oculto", "mostrar");
       });
     }
   }
